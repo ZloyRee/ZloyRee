@@ -6,9 +6,9 @@ name: CI FILE MANAGER START
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
-    branches: [ "main" ]
+    branches: [ "PROFILL VK " ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "INFO " ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -24,7 +24,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-
+VK: @VYPEVSHY
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world!
